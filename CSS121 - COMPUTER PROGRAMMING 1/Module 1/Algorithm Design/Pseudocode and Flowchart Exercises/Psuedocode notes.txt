@@ -1,0 +1,93 @@
+Program to find the perimeter and area of a rectangle
+
+Variables used:
+
+	len, wid are numeric;
+
+	perim, area are also numeric.
+
+Begin:
+
+	Input:
+	
+		Accept len 
+
+		Accept wid
+
+	Process:
+
+		Accept perim = 2 * (len + wid)
+
+		Accept area = len * wid
+
+	Output:
+
+		Display "Perimeter =", perim
+
+		Display "Area =", area
+End.
+
+Program to convcert temperature from Celsius to Fahrenheit
+
+Variables used:
+
+	far, cel are numeric.
+
+Begin:
+
+	Input:
+
+		Accept cel
+
+	Process:
+
+		Accept far = 9/5 * (cel) + 32
+
+	Output:
+
+		Display "Fahrenheit =", far, "°F"
+End.
+
+Program to calculate total bill and change of a customer after tax and service charge
+
+
+Input: gbill, amountGiven
+
+Output: totalBill, change
+
+Process: totalBill = (gbill * 0.10) + (gbill * 0.05) + gbill;
+	 change = totalBill - gbill;
+
+
+Variables used:
+
+	gbill, amount given are numeric;
+
+	totalBill, change are also numeric;
+
+Begin:
+
+	Input:
+		Accept gbill
+		
+		Accept amountGiven
+
+	Process:
+
+		Accept totalBill = gbill + (gbill * 0.10) + (gbilo * 0.05)
+
+		Accept change = amountGiven - totalBill 
+
+	Output: 
+		Display "Total bill =", totalBill
+		Display "Change =", change
+End.
+
+
+
+
+
+
+
+
+

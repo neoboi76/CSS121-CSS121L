@@ -1,0 +1,3 @@
+Hours rendered: 45
+Rate per hour: 50
+Net salary is: 2437.5

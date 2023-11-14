@@ -16,27 +16,38 @@ int main()
 
     cout << "Enter an integer: ";
     cin >> num;
+    // Finds absolute value in case of negative numbers
     temp = abs(num);
 
+    // Initial counter as exponent
     i = -1;
 
+    // Increments and produces the exponent
     while (temp != 0)
     {
         i++;
         temp /= 10;
     }
 
+    // Re-initializes temp
     temp = abs(num);
+    // Gets the value of div used to
+    // extract the first digit
     div = pow(10, i);
 
     cout << "Digits are: ";
 
     while (temp != 0)
     {
+        // Extracts the first digit
         digit = temp / div;
+        // Removes the First digit
         temp %= div;
+        // Adds digit in sum
         sum += digit;
+        // Truncates last digit in div
         div /= 10;
+        // Displays digit
         cout << digit << " ";
     }
 
